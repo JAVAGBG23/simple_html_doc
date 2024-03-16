@@ -1,0 +1,51 @@
+<!-- deklarerar dokumentets typ och version av HTML -->
+<!DOCTYPE html>
+<!-- <html lang="sv">: rot elementet som hela HTML-dokumentet är "wrappat" i, attributet lang specificerar sidans språk. -->
+<html lang="en">
+  <!-- <head>: innehåller metainformation om dokumentet, såsom tecken-kodning och titel. -->
+  <head>
+    <!-- <meta charset="UTF-8">: anger tecken-kodningen för dokumentet, här för UTF-8. -->
+    <meta charset="UTF-8" />
+    <!-- <title>: titeln på webbsidan som visas i webbläsarens titelfält eller flik. -->
+    <title>Min första webbsida</title>
+  </head>
+  <!-- <body>: innehåller allt innehåll som visas till användaren: text, bilder, länkar, etc. -->
+  <body>
+    <!-- <header>: representerar en grupp av inledande eller navigerande hjälpmedel. ofta innehåller det en rubrik. -->
+    <header>
+      <!-- <h1>: huvudrubriken för sidan, den högsta nivån på rubrik. -->
+      <h1>Välkommen till min webbsida</h1>
+    </header>
+    <!--<nav>: definierar en uppsättning navigationslänkar. -->
+    <nav>
+      <!-- <ul>: en osorterad lista. -->
+      <ul>
+        <!-- <li>: ett listelement. -->
+        <!-- <a href="#section1">: en hyperlänk till en annan del av dokumentet, eller till en annan sida. -->
+        <li><a href="#section1">Avsnitt 1</a></li>
+        <li><a href="#section2">Avsnitt 2</a></li>
+      </ul>
+    </nav>
+    <!-- <section>: representerar en sektion av ett dokument, som en grupp av innehåll med ett relaterat tema. -->
+    <section id="section1">
+      <!-- <h2>: en underrubrik. -->
+      <h2>Avsnitt 1</h2>
+      <!-- <p>: ett stycke text. -->
+      <p>
+        Det här är en text i det första avsnittet av sidan. Här kan du lägga
+        till information om ämnet.
+      </p>
+    </section>
+    <section id="section2">
+      <h2>Avsnitt 2</h2>
+      <p>
+        Det här är en text i det andra avsnittet. Här kan ytterligare
+        information läggas till.
+      </p>
+    </section>
+    <!-- <footer>: definierar sidfoten på sidan, ofta innehåller kontaktinformation eller upphovsrättsinformation. -->
+    <footer>
+      <p>Kontaktinformation: [din e-postadress]</p>
+    </footer>
+  </body>
+</html>
